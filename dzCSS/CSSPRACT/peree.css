@@ -1,0 +1,40 @@
+.header {
+    font-family: "Open Sans", sans-serif;
+    text-align:justify;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.line {
+    text-decoration-line: line-through;
+}
+
+.center {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.miles {
+    text-decoration: overline wavy purple;
+    color: purple;
+    word-spacing: 30px;
+}
+
+.miles2 {
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-decoration: double underline;
+}
+
+.end {
+    text-decoration: none;
+    text-align: center;
+}
+
+.end2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

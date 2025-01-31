@@ -1,0 +1,75 @@
+.button {
+    text-align: center;
+    color: black;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-decoration: none;
+}
+
+.rickroll1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.t1 {
+    position: absolute;
+    top: calc(50% + 400px);
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: red;
+}
+
+.t2 {
+    position: absolute;
+    top: calc(50% + 430px);
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+}
+
+.vor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.vor2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.piss {
+    position: absolute;
+    top: calc(5% + 170px);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 500px;
+}
+
+.ded {
+    position: absolute;
+    top: calc(50% + 300px);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 500px;
+    text-decoration: none;
+    color: black;
+}
+
+.demon1 {
+    text-align: left;
+    width: 480px;
+    text-decoration: double line-through black;
+}
