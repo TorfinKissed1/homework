@@ -1,0 +1,240 @@
+body {
+    background: #181E34;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.container {
+    max-width: 930px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* ======================================================================================== */
+
+.header {
+    padding: 30px 0 36px;
+
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-element {
+    margin-right: 30px;
+}
+
+.header-login {
+    background: #fff;
+    color: #2766AE;
+    padding: 14px 30px;
+    font-weight: 500;
+    line-height: 20px;
+
+    border-radius: 100px;
+}
+
+/* ============================================================================================ */
+
+
+.hero-one {
+    background: url(../Image/back.png) 20% 20% / cover no-repeat;
+    padding: 120px 0;
+}
+
+.about-course {
+    margin-bottom: 60px;
+    text-align: center;
+
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+}
+
+.flex-advert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advert-text {
+    max-width: 436px;
+}
+
+.advert-title {
+    margin-bottom: 15px;
+}
+
+.about {
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(1, 162, 203);
+    text-transform: uppercase;
+}
+
+.advert-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+}
+
+.advert-button {
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(rgb(0, 164, 204), rgb(39, 102, 174));
+    border-radius: 100px;
+    text-align: center;
+    padding: 18px 30px;
+}
+
+.one {
+    margin-bottom: 10px;
+}
+
+
+.advert-button img {
+    margin-left: 4px;
+}
+
+/* =========================================================================================== */
+
+.hero-two {
+    padding: 120px 0;
+}
+
+
+.h-walk {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+
+    margin-bottom: 15px;
+}
+
+.title-walk-text {
+    max-width: 513px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.alarm {
+    font-weight: 700;
+    color: rgb(52, 55, 202);
+
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: -28px;
+    padding-bottom: 30px;
+}
+
+.card {
+    padding: 0 14px;
+    margin-bottom:  28px;
+
+    flex-grow: 1;
+}
+
+.card-content {
+    background: rgb(23, 107, 174);
+    box-shadow: 4px 4px 13px 0px rgba(5, 13, 41, 0.76);
+    text-align: center;
+
+    border-radius: 16px;
+    border: 2px solid #176BAE;
+    padding: 28px 15px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    margin-bottom: 10px;
+}
+
+.card-text {
+    max-width: 144px;
+    margin: 0 auto;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    max-width: 436px;
+    margin: 0 auto;
+
+    background: linear-gradient(rgb(0, 164, 204), rgb(39, 102, 174));
+
+    border-radius: 100px;
+    padding: 18px 30px;
+}
+
+/* ======================================================================================================== */
+
+.end {
+    padding: 60px 0;
+    border-top: 1px solid #323952;
+}
+
+.contain-footer {
+    max-width: 841px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.foot-flex {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: -10px;
+}
+
+.foot-about {
+    max-width: 267px;
+}
+
+.foot-img {
+    margin-bottom: 15px;
+}
+
+.foot-nav {
+    flex-direction: column;
+}
+
+.foot-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    margin-bottom: 20px;
+}
+
+.foot-elements {
+    margin-bottom: 10px;
+}
