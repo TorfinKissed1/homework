@@ -1,0 +1,66 @@
+.btn {
+    background: rgb(44, 44, 212);
+    padding: 10px;
+    border-radius: 10px;
+
+    display: block;
+
+    margin: 0 auto;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000c1;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+
+.modal-window {
+    position: relative;
+    width: 50vw;
+    min-height: 40vw;
+    padding: 50px 20px 20px 20px;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.modal--open {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 20vw;
+    max-width: 20vw;
+
+    border: 1px solid #000; */
