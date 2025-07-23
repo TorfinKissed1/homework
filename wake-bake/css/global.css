@@ -49,7 +49,7 @@ body {
 }
 
 .main__about {
-    margin-bottom: 140px;
+    padding: 140px 0 140px;
 }
 
 .main__gallery {
