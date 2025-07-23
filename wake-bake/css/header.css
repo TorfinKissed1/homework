@@ -2,6 +2,10 @@
     background: url(../images/decorations/background/pg-header.png) 50% 100% / cover no-repeat;
 }
 
+.header--margin-bottom {
+    margin-bottom: 140px;
+}
+
 .header__top {
     padding-top: 19px;
 }
