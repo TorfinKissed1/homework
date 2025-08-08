@@ -1,0 +1,208 @@
+.footer {
+    background: var(--gray);
+    padding-top: 80px;
+}
+
+.footer__top {
+    position: relative;
+    padding-bottom: 60px;
+}
+.footer__top::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    opacity: 0.4;
+    background: linear-gradient(270deg, rgba(218, 219, 221, 0.00) 0%, rgba(218, 219, 221, 0.50) 12.33%, #DADBDD 51.91%, rgba(218, 219, 221, 0.50) 87.85%, rgba(218, 219, 221, 0.00) 100%);
+}
+
+.footer__top-inner {
+    display: flex;
+    color: var(--white);
+    gap: 80px;
+}
+
+.footer__about {
+    max-width: 281px;
+    font-size: 12px;
+    line-height: var(--large-line-height);
+}
+
+.footer__about-logo {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.footer__about-logo img {
+    max-width: 100%;
+}
+
+.footer__about-text {
+    opacity: var(--opacity-text);
+    margin-bottom: 38px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__company {}
+
+.footer__company-title,
+.footer__services-title {
+    font-weight: var(--middle-font-weight);
+    line-height: var(--middle-line-height);
+    letter-spacing: 1px;
+
+    margin-bottom: 12px;
+}
+
+.footer__company-list,
+.footer__services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__company-item {}
+
+.footer__company-link,
+.footer__services-link {
+    white-space: nowrap;
+    line-height: var(--large-line-height);
+    opacity: 0.6;
+}
+
+.footer__contacts {
+}
+
+.footer__contacts-title {
+    font-weight: var(--middle-font-weight);
+    line-height: var(--middle-line-height);
+    letter-spacing: 1px;
+
+    margin-bottom: 17px;
+}
+
+.footer__contacts-number {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 18px;
+    opacity: var(--opacity-text);
+}
+
+.footer__contacts-mail {
+    display: flex;
+    gap: 8px;
+    opacity: var(--opacity-text);
+}
+
+.footer__subscribe {
+    min-width: 286px;
+}
+
+.footer__subscribe-title {
+    font-weight: var(--middle-font-weight);
+    line-height: var(--middle-line-height);
+    margin-bottom: 24px;
+}
+
+.footer__subscribe-form {}
+
+.footer__form {
+    position: relative;
+}
+
+.footer__form-label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.field {
+}
+
+.footer__form-input {
+    padding: 9px 12px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: var(--border);
+
+    color: var(--white);
+    font-size: 12px;
+    line-height: var(--middle-line-height);
+}
+
+.field__input {
+}
+
+.footer__form-btn {
+    position: absolute;
+    top: 11.8%;
+    right: 4.5%;
+}
+
+.footer__form-text {
+    font-size: 10px;
+    line-height: var(--middle-line-height);
+}
+
+
+.footer__middle {
+    padding: 40px 0 40px;
+}
+
+.footer__middle-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer__middle-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__partners {
+    display: flex;
+    gap: 24px;
+}
+
+.footer__scroll {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+}
+.footer__scroll span {
+    font-size: 14px;
+    line-height: var(--middle-line-height);
+    color: var(--white);
+}
+
+.footer__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+
+    background: var(--violet-light);
+    border-radius: var(--border);
+}
+
+.footer__bottom {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 16px 0;
+}
+
+.footer__bottom span {
+    font-size: 12px;
+    line-height: var(--middle-line-height);
+    color: var(--white);
+}
+
+/* ===================================================================== */

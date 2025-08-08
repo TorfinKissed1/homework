@@ -1,0 +1,126 @@
+@import "reset.css";
+@import "fonts.css";
+@import "global.css";
+
+@import "header.css";
+@import "footer.css";
+/* ===================================================================== */
+
+
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+
+@media (max-width: 1300px) {
+    /* ===================================================================== */
+    
+    .hero__badges {
+        justify-content: space-around;
+    }
+
+    .hero__badges-item {
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .hero__badges-list:not(:last-child)::after {
+        display: none;
+    }
+
+    .hero__decoration-man {
+        display: none;
+    }
+
+    /* ===================================================================== */
+    
+    .footer__top-inner {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        gap: 45px;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .header__top-inner {
+        justify-content: space-between;
+    }
+    
+    .nav {
+        display: none;
+    }
+
+    .header__support {
+        display: none;
+    }
+    
+    .dropdown {
+        display: block;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 9vw;
+    }
+
+    .hero__title {
+        text-align: center;
+    }
+
+    .hero__info {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero__info-button {
+        padding: 0 20px;
+    }
+
+    .hero__preview {
+        z-index: 1;
+        gap: 25px;
+    }
+
+    .caret {
+        margin-left: 10px;
+    }
+
+    .hero__badges {
+        gap: 30px;
+    }
+    .hero__badges-item {
+        gap: 15px;
+        max-width: 119px;
+    }
+
+    /* ===================================================================== */
+
+    .footer__middle-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__partners {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__bottom {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .hero__badges-item {
+        /* font-size: 12px; */
+    }
+}
