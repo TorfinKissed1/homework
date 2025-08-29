@@ -990,15 +990,15 @@
     border: 1px solid #03CEA4;
     color: var(--white);
 }
-
+.plan:hover .plan__discount {
+    color: #03CEA4;
+} 
 .plan:hover .plan__price {
     color: #03CEA4;
 }
-
 .plan:hover .plan__element path {
     fill: #03CEA4;
 }
-
 .plan:hover .plan__element--cancel-gray path {
     fill: var(--gray-white);
 }
@@ -1829,4 +1829,5 @@
     .news__content {
         flex-wrap: wrap;
     }
+
 }
