@@ -140,17 +140,31 @@
         const wrapper = btn.closest(".price__bars-wrapper");
         const indicator = wrapper.querySelector(".price__indicator");
         const buttons = wrapper.querySelectorAll(".price__bars-btn");
-        e.preventDefault()
+        const prices = document.querySelectorAll(".plan__discount");
+
+        e.preventDefault();
 
         buttons.forEach(b => b.classList.remove("price__bars-btn--active"));
         btn.classList.add("price__bars-btn--active");
 
         if (btn === buttons[1]) {
             indicator.classList.add("price__indicator--move");
+
+            prices.forEach(price => {
+                const basePrice = parseFloat(price.dataset.price);
+                const discounted = (basePrice * 0.88).toFixed(0);
+                price.textContent = `$${discounted}`;
+            });
+
         } else {
             indicator.classList.remove("price__indicator--move");
+
+            prices.forEach(price => {
+                price.textContent = `$${price.dataset.price}`;
+            });
         }
     });
+
 
 
 })();
