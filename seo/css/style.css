@@ -1090,6 +1090,7 @@
 
 .feedback__control {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .feedback__prev {
@@ -1820,4 +1821,5 @@
     .news__content {
         flex-wrap: wrap;
     }
+
 }
