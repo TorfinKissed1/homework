@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Caveat';
-    src: url('./Caveat-Regular.woff2') format('woff2'),
-        url('./Caveat-Regular.woff') format('woff');
+    src: url('/Caveat-Regular.woff2') format('woff2'),
+        url('/Caveat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -27,10 +27,13 @@ body {
     height: 100%;
 }
 
+.particles-js-canvas-el {
+    position: absolute;
+}
+
 .letter-table {
     width: 100%;
     max-width: 720px;
-    margin: 2rem auto;
     border-collapse: collapse;
     background: linear-gradient(to bottom, #f8f9fd 0%, #e8f0ff 100%);
     border: 1px solid #c0c0ff;
@@ -128,6 +131,4 @@ body {
     margin-top: 2rem;
     color: #4b0082;
     font-size: 2rem;
-
 }
-
