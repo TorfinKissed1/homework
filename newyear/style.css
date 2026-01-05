@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url('/Caveat-Regular.woff2') format('woff2'),
+        url('/Caveat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1a0f2e 0%, #2c1447 40%, #3a1e5c 70%, #1e0033 100%);
+}
+
+body {
+}
+
+.snow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.letter-table {
+    width: 100%;
+    max-width: 720px;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, #f8f9fd 0%, #e8f0ff 100%);
+    border: 1px solid #c0c0ff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 25px rgba(0, 0, 80, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    color: #1a1a2e;
+    z-index: 111;
+}
+
+.header-cell {
+    text-align: center;
+}
+.header-cell,
+.body-cell,
+.divider-row {
+    padding: 1.5rem 2rem;
+    font-family: 'Caveat', sans-serif;
+}
+
+.intro {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.main-text {
+    font-size: 1.5rem;
+}
+
+.header-row {
+    background: #e0e0ff;
+    border-bottom: 2px dashed #9080ff;
+}
+
+.date,
+.to {
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+    color: #4b0082;
+}
+
+.badge {
+    text-align: right;
+}
+
+.badge-img {
+    width: 80px;
+    height: auto;
+}
+
+.divider-row {
+    text-align: center;
+    color: #a0a0ff;
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+
+.greeting {
+    font-size: 2.5rem;
+    color: #2b1a5e;
+    text-align: center;
+    margin: 1rem 0 1.5rem;
+}
+
+.wishlist {
+    padding-left: 2.2rem;
+    margin: 1.2rem 0;
+    font-size: 1.7rem;
+}
+
+.wishlist li {
+    margin-bottom: 0.7rem;
+}
+
+.promises {
+    margin-top: 2rem;
+    padding-top: 1.2rem;
+    border-top: 1px dashed #a0a0ff;
+}
+.promises strong {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 1.8rem;
+}
+
+.promises p {
+    margin: 0.5rem 0;
+    color: #3a1a8e;
+    font-size: 1.5rem;
+}
+
+.signature {
+    text-align: right;
+    font-style: italic;
+    margin-top: 2rem;
+    color: #4b0082;
+    font-size: 2rem;
+}
